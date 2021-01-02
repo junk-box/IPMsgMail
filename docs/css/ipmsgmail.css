@@ -1,0 +1,45 @@
+#salescopy {
+	width: auto;
+	height: 375px;
+	padding-right: 536px;
+	background: url(../img/ss.png) no-repeat 460px;
+}
+
+#salescopy-text {
+	width: 446px;
+	height: 375px;
+	background-color: white;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #484848;
+	font-weight: bold;
+}
+
+#salescopy-text1 {
+	padding-left: 10px;
+	padding-right: 0px
+	pading-top: 10px;
+	padding-bottom: 10px;
+	font-size: 48px;
+}
+
+#salescopy-text2 {
+	padding:10px;
+	padding-left: 15px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#salescopy-download {
+	padding:10px;
+	text-align: center;
+}
+
+#salescopy-download a {
+	outline: none;
+}
+
+#salescopy-download img {
+	border: none;
+}

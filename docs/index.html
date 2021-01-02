@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 //EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="IP Messengerにログ閲覧機能を合体させたメーラーライクなメッセンジャー">
+		<meta name="keywords" content="IPMsgMail,ipmsg,IP Messenger,IPメッセンジャー,log,ログ,mail,mailer,メール,メーラ,メーラー">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>IPMsgMail</title>
+		<link type="text/css" rel="stylesheet" href="css/base.css">
+		<link type="text/css" rel="stylesheet" href="css/ipmsgmail.css">
+	</head>
+	<body>
+		<div id="title">
+			<img src="img/ipmsg_mail.png">
+			<span>IPMsgMail</span>
+		</div>
+		<div class="container">
+			<div class="caption">
+				<h1 style="margin-top: 5px;">IPMsgMail</h1>
+			</div>
+			<div class="contentsBody">
+				<div id="salescopy">
+					<div id="salescopy-text">
+						<div id="salescopy-text1">
+							&nbsp;&nbsp;IP Messengerを<br>ヘビーに使いこなす<br>あなたへ
+						</div>
+						<div id="salescopy-text2">
+							IPMessengerにログ閲覧機能を合体した<br>メーラーライクなメッセンジャー
+						</div>
+						<div id="salescopy-download">
+							<a href="download/IPMsgMail-1.7.7z"><img src="img/download.png"></a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="#summary">概要</a>
+						</li>
+						<li>
+							<a href="#history">更新履歴</a>
+						</li>
+						<li>
+							<a href="#environment">動作環境</a>
+						</li>
+						<li>
+							<a href="#install">インストール</a>
+						</li>
+						<li>
+							<a href="#run">起動</a>
+						</li>
+						<li>
+							<a href="#faq">FAQ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="contents">
+				<div class="caption">
+					<h2 id="summary">概要</h2>
+				</div>
+				<div class="contentsBody">
+					<p>IPMsgMailは<a target="_blank" href="http://ipmsg.org/">IP Messenger</a>にログ閲覧機能を合体したメーラーライクなメッセンジャーです。</p>
+					<div>
+						IPMsgMailの特徴
+						<ul type="disc" style="margin-top: 0px;">
+							<li>
+								IPMessger Ver2 プロトコル互換
+								<ul type="circle">
+									<li>メッセージ送受信</li>
+									<li>メッセージ暗号化</li>
+									<li>封書</li>
+									<li>ファイル送受信</li>
+								</ul>
+							</li>
+							<li>
+								IPMessengerで出力したログをインポート可能<br>
+								&nbsp;&nbsp;IPMessengerからのスムーズな移行が可能です。
+							</li>
+							<li>メッセージの高速検索</li>
+						</ul>
+					</div>
+					<p>IPMsgMailはフリーウェアです。無償で利用できます。</p>
+				</div>
+			</div>
+			<div class="contents">
+				<div class="caption">
+					<h2 id="history">更新履歴</h2>
+				</div>
+				<div class="contentsBody">
+					<h3>2021/01/02</h3>
+					<ul>
+						<li>
+							<a href="http://junk-box.appspot.com/software/ipmsgmail/index.html">ここ</a>からページを移動
+						</li>
+					</ul>
+					<h3>2016/11/13</h3>
+					<ul>
+						<li>
+							Ver1.7 公開
+							<ul>
+								<li class="fix">受信メッセージの末尾が文字化けする場合がある</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2016/07/23</h3>
+					<ul>
+						<li>
+							Ver1.6 公開
+							<ul>
+								<li class="change">タスクトレイPOPクリックで受信箱を表示</li>
+								<li class="change">右クリックで貼り付け後、テキストエリアにフォーカス</li>
+								<li class="change">前回指定したダウンロード保存先を記憶(記憶は起動中のみ)</li>
+								<li class="change">デフォルトで封書チェックを有効</li>
+								<li class="fix">終了時にソケット切断エラーが発生する</li>
+								<li class="fix">ウィンドウ表示時に閉じるボタンがマウスオーバー時の背景色で表示される場合がある</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2015/09/08</h3>
+					<ul>
+						<li>
+							Ver1.5 公開
+							<ul>
+								<li class="fix">標準出力に出力する文字コードが統一されていない</li>
+								<li class="fix">Chat&amp;Messengerから添付ファイル付のメッセージを受信できない</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2015/07/20</h3>
+					<ul>
+						<li>
+							Ver1.4 公開
+							<ul>
+								<li class="new">キャプチャ画像の受信に対応</li>
+								<li class="new">受信エディターのコンテキストメニューに「すべて選択」を追加</li>
+								<li class="new">送信エディターのコンテキストメニューに「引用貼り付け」を追加</li>
+								<li class="new">送信エディターのコンテキストメニューに「削除」を追加</li>
+								<li class="new">送信エディターのコンテキストメニューに「すべて選択」を追加</li>
+								<li class="change">コンテキストメニューのフォントを変更</li>
+								<li class="change">添付ファイルダウンロードの高速化</li>
+								<li class="change">メッセージ送信中にダイアログを表示</li>
+								<li class="change">インポート時のローディングアニメーションを変更</li>
+								<li class="fix">送信エディターのコンテキストメニューをキーボードで操作出来ない</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2015/03/14</h3>
+					<ul>
+						<li>
+							Ver1.3 公開
+							<ul>
+								<li class="change">タスクトレイアイコンのポップアップクリックで前面に表示</li>
+								<li class="change">降順でソートされてるテーブルヘッダクリックでソート解除</li>
+								<li class="change">送信メッセージ内の「CR」を除去</li>
+								<li class="change">コンポーネントの最小サイズを調整</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2015/01/17</h3>
+					<ul>
+						<li>
+							Ver1.2 公開
+							<ul>
+								<li class="change">暗号化キーを永続化</li>
+								<li class="fix">バージョン情報のリンクをマウスオーバーでカーソルが変化しない</li>
+								<li class="fix">受信データのパース処理の改善</li>
+								<li class="fix">未定義のメッセージコマンド受信でエラー</li>
+								<li class="fix">終了時にプロセスが終了しない</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2012/12/17</h3>
+					<ul>
+						<li>
+							Ver1.1 公開
+							<ul>
+								<li class="new">未読時にタスクトレイアイコンを点滅</li>
+								<li class="new">返信時にユーザを選択(ユーザリストに存在する場合)</li>
+								<li class="new">受信メッセージ表示エディタに右クリックメニュー(コピー)</li>
+								<li class="new">送信メッセージ作成エディタに右クリックメニュー(コピー、切り取り、貼り付け)</li>
+								<li class="new">送信メッセージ作成エディタにドラッグ&amp;ドロップでのファイルの添付</li>
+								<li class="new">送信メッセージ作成エディタにundo(Ctrl + z)/redo(Ctrl + y)</li>
+								<li class="new">メッセージ検索Boxに右クリックメニュー(コピー、切り取り、貼り付け)</li>
+								<li class="new">メッセージ検索Boxにundo(Ctrl + z)/redo(Ctrl + y)</li>
+								<li class="new">起動用のexeファイル(IPMsgMail.exe)</li>
+								<li class="fix">メッセージ受信時にメッセージ一覧の未読メッセージが太字で表示されない</li>
+								<li class="change">ログのインポート成功時にインポートボタンを非表示(二重インポート防止)</li>
+								<li class="change">受信メッセージエディタのタブインデント(8→4)</li>
+								<li class="change">送信メッセージ作成エディタのタブインデント(8→4)</li>
+								<li class="etc">バージョン情報ダイアログにHPのリンク表示</li>
+							</ul>
+						</li>
+					</ul>
+					<h3>2012/06/23</h3>
+					<ul>
+						<li>Ver1.0 公開</li>
+					</ul>
+				</div>
+			</div>
+			<div class="contents">
+				<div class="caption">
+					<h2 id="environment">動作環境</h2>
+				</div>
+				<div class="contentsBody">
+					<p>Java Runtime Environment Version 7 以上 (Windows環境推奨)</p>
+					<p>
+						Windows用のJREを同梱しています。
+					</p>
+					<p>
+						Linuxでも動作しますが、挙動があやしい＆デザインが崩れることがあります。<br>
+						サポート対象はWindows環境のみとします。
+					</p>
+					<p>
+						<i>Linux用のJavaは下記サイトよりインストールして下さい。</i><br>
+						<a target="_blank" href="http://java.com/ja/">Javaのダウンロード</a>
+					</p>
+				</div>
+			</div>
+			<div class="contents">
+				<div class="caption">
+					<h2 id="install">インストール</h2>
+				</div>
+				<div class="contentsBody">
+					<p>解凍し、任意のディレクトリに配置して下さい。</p>
+				</div>
+			</div>
+			<div class="contents">
+				<div class="caption">
+					<h2 id="run">起動</h2>
+				</div>
+				<div class="contentsBody">
+					<b>IPMsgMail.exe</b> をダブルクリックで起動します。<br>
+					<p><i>起動しない場合、以下のコマンドを実行してください。</i></p>
+					<pre>jre\bin\java -jar IPMsgMail-1.6.jar</pre>
+					&nbsp;&nbsp;※起動用シェル(run.bat, run.sh)を同梱してあります。
+				</div>
+			</div>
+			<div class="contents">
+				<div class="caption">
+					<h2 id="faq">FAQ</h2>
+				</div>
+				<div class="contentsBody">
+					<h3>IPMessengerの全機能が含まれていますか？</h3>
+					<div class="faqAnswer">
+						いいえ、以下の機能は含まれていません。
+						<ul>
+							<li>不在通知</li>
+							<li>Local Network以外のBroadcast</li>
+							<li>Ver3以降の機能全般</li>
+						</ul>
+					</div>
+					<h3>IPMessenger Ver3のプロトコルに対応していますか？</h3>
+					<div class="faqAnswer">
+						いいえ、対応しているプロトコルはVer2のみです。
+					</div>
+					<h3>IPMsgMailの使用に制限はありますか？</h3>
+					<div class="faqAnswer">
+						いいえ、特に制限はありません。改造・転載・再配布・商用利用可です。
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			Copyright (C) 2021 S.Ishigaki All Rights Reserved.
+		</div>
+	</body>
+</html>
