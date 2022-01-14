@@ -7,6 +7,7 @@
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<title>IPMsgMail</title>
 		<link type="text/css" rel="stylesheet" href="css/base.css">
+		<link type="text/css" rel="stylesheet" href="css/history.css">
 		<link type="text/css" rel="stylesheet" href="css/ipmsgmail.css">
 	</head>
 	<body>
@@ -28,7 +29,7 @@
 							IPMessengerにログ閲覧機能を合体した<br>メーラーライクなメッセンジャー
 						</div>
 						<div id="salescopy-download">
-							<a href="download/IPMsgMail-1.7.7z"><img src="img/download.png"></a>
+							<a href="download/IPMsgMail-1.8.zip"><img src="img/download.png"></a>
 						</div>
 					</div>
 				</div>
@@ -88,6 +89,21 @@
 					<h2 id="history">更新履歴</h2>
 				</div>
 				<div class="contentsBody">
+					<h3>2022/01/15</h3>
+					<ul>
+						<li>
+							Ver1.8 公開
+							<ul>
+								<li class="new">自セグメント以外へのブロードキャスト</li>
+								<li class="new">添付ファイルの自動保存</li>
+								<li class="change">実行環境をjre17(64bit)に変更</li>
+								<li class="change">添付ファイルを再ダウンロード可能に変更</li>
+								<li class="change">バルーンクリックでメッセージ一覧のスクロールをトップに移動するよう変更</li>
+								<li class="fix">ファイルダウンロードに失敗することがある</li>
+								<li class="fix">Windows10環境で通知バルーンクリックで前面に出ない</li>
+							</ul>
+						</li>
+					</ul>
 					<h3>2021/01/02</h3>
 					<ul>
 						<li>
@@ -203,7 +219,7 @@
 					<h2 id="environment">動作環境</h2>
 				</div>
 				<div class="contentsBody">
-					<p>Java Runtime Environment Version 7 以上 (Windows環境推奨)</p>
+					<p>Java Runtime Environment Version 17 以上 (Windows環境推奨)</p>
 					<p>
 						Windows用のJREを同梱しています。
 					</p>
@@ -213,7 +229,7 @@
 					</p>
 					<p>
 						<i>Linux用のJavaは下記サイトよりインストールして下さい。</i><br>
-						<a target="_blank" href="http://java.com/ja/">Javaのダウンロード</a>
+						<a target="_blank" href="https://www.oracle.com/java/technologies/downloads/">Javaのダウンロード</a>
 					</p>
 				</div>
 			</div>
@@ -232,7 +248,7 @@
 				<div class="contentsBody">
 					<b>IPMsgMail.exe</b> をダブルクリックで起動します。<br>
 					<p><i>起動しない場合、以下のコマンドを実行してください。</i></p>
-					<pre>jre\bin\java -jar IPMsgMail-1.6.jar</pre>
+					<pre>jre17\bin\java -jar IPMsgMail-1.8.jar</pre>
 					&nbsp;&nbsp;※起動用シェル(run.bat, run.sh)を同梱してあります。
 				</div>
 			</div>
@@ -262,7 +278,7 @@
 			</div>
 		</div>
 		<div id="copyright">
-			Copyright (C) 2021 S.Ishigaki All Rights Reserved.
+			Copyright (C) 2022 S.Ishigaki All Rights Reserved.
 		</div>
 	</body>
 </html>
